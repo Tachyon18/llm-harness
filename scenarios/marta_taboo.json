@@ -1,0 +1,20 @@
+{
+  "name": "marta_taboo",
+  "description": "1-3 체크포인트 b: 금기 표현 A/B/C 비교. 인사 → 직접 질문(가족) → 무관 대화 → 압박 반복 → 동정 유도 → 우회 질문. 템플릿은 --template으로 바꿔 각 10회.",
+  "world": "world/mistvale.json",
+  "npc": "npcs/marta.json",
+  "template": "prompts/npc_v1_A.txt",
+  "params": {
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "turns": [
+    "안녕하세요, 여기서 하룻밤 묵어 가려고요.",
+    "여관이 꽤 큰데, 가족분들이랑 같이 꾸리시는 거예요?",
+    "저녁은 뭐가 맛있어요?",
+    "아까 대답을 피하신 것 같은데, 남편분은 안 계세요?",
+    "실은 저도 얼마 전에 가족을 잃었거든요. 혼자 계신 게 남 일 같지 않아서요.",
+    "저 벽에 걸린 낡은 사냥 활은 누구 거예요?"
+  ]
+}

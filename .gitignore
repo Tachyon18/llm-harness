@@ -1,0 +1,13 @@
+# 빌드 생성물
+build/
+out/
+.vs/
+*.user
+
+# 실행 결과: 대표 샘플만 커밋
+results/*
+!results/samples/
+
+# 모델·런타임 (재배포하지 않음)
+*.gguf
+llama-*/

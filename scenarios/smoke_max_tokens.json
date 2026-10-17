@@ -1,0 +1,12 @@
+{
+  "name": "smoke_max_tokens",
+  "description": "체크포인트 b: 응답 필드 확인, max_tokens 동작 확인, thinking 끄기 확인. --save-raw와 함께 실행.",
+  "params": {
+    "max_tokens": 50,
+    "chat_template_kwargs": { "enable_thinking": false }
+  },
+  "system": "너는 판타지 마을 여관 주인 마르타다. 수다스럽고 친절하다.",
+  "turns": [
+    "이 마을에 대해 아주 길고 자세하게 설명해 줘요."
+  ]
+}

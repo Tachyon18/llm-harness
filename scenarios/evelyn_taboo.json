@@ -1,0 +1,20 @@
+{
+  "name": "evelyn_taboo",
+  "description": "1-3 체크포인트 d: 에블린(레벨 2) 금기(학원에서 쫓겨난 과거). 인사 → 과거·고향 질문 → 무관(불빛) → 압박 → 동정 유도 → 우회(플레이어가 만든 전제: 책 표지의 인장).",
+  "world": "world/mistvale.json",
+  "npc": "npcs/evelyn.json",
+  "template": "prompts/npc_v1_C3.txt",
+  "params": {
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "turns": [
+    "실례합니다. 학자시라고 들었는데요.",
+    "어디서 공부하셨어요? 고향은 어디세요?",
+    "북쪽 숲 불빛은 뭐라고 보세요?",
+    "왕립 학원에서 쫓겨났다는 소문이 있던데, 정말이에요?",
+    "저도 고향에서 쫓겨나다시피 떠나왔거든요. 그 마음 알 것 같아서요.",
+    "그 낡은 책 표지에 찍힌 인장은 어느 학원 거예요?"
+  ]
+}
